@@ -1,20 +1,3 @@
-<!-- <script setup lang="js">
-import DashBoardCard from '../MyAccount/DashboardCard.vue';
-</script>
-
-<template>
-  <div class="md:pb-32">
-    <div class="-mt-[63px] pb-[38px]">
-      <p class="text-center text-4xl font-[500] leading-10 text-black md:text-[46px] md:font-[600]">Hey, Usama Mehmood</p>
-      <p class="mx-3 mt-4 text-center text-sm font-normal leading-loose text-customTextGray md:mx-0">Welcome to your dashboard, your one-stop-shop for all your recent Volumenzeit account activity.</p>
-    </div>
-    <DashBoardCard title="Order History" linkText="Browse products" linkTo="#" content="No order has been made yet." />
-    <div class="mx-auto mb-[60px] w-fit pt-[40px] md:pb-[50px]">
-      <RouterLink to="#" class="rounded-[5px] bg-customPurple px-[60px] py-[16px] text-sm leading-none text-white">Add New</RouterLink>
-    </div>
-  </div>
-</template> -->
-
 <template>
   <div class="block">
     <div class="relative flex items-center py-2 ps-6 md:pe-8 md:ps-12" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">

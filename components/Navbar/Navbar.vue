@@ -44,18 +44,21 @@ const handleMouseLeave = () => {
     <div class="container z-30 m-auto flex max-w-[70rem] items-center justify-between py-2 lg:gap-7">
       <span data-aos="fade-right opacity-100">
         <NuxtLink to="/" class="w m-0 text-customGray lg:p-0">
-          <img data-aos="fade-right" src="/images/logo.svg" alt="Logo" class="h-[30px] w-[260px] lg:h-[34px] lg:w-[270px]" />
+          <img data-aos="fade-right" src="/public/images/logo.svg" alt="Logo" class="h-[30px] w-[260px] lg:h-[34px] lg:w-[270px]" />
         </NuxtLink>
       </span>
 
       <nav class="hidden justify-center lg:flex lg:flex-[1_1_auto]">
-        <ul class="flex gap-10 text-sm font-medium text-customTextGray">
+        <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === link.to }" :data-goto-top="'120'" :data-goto="link.goto">
+          {{ link.label }}
+        </NuxtLink>
+        <!-- <ul class="flex gap-10 text-sm font-medium text-customTextGray">
           <li v-for="link in navLinks" :key="link.to" :data-aos="'fade-right'" :data-aos-delay="link.delay">
             <NuxtLink :to="link.to" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === link.to }" :data-goto-top="'120'" :data-goto="link.goto">
               {{ link.label }}
             </NuxtLink>
           </li>
-        </ul>
+        </ul> -->
       </nav>
 
       <div class="hidden items-center gap-8 md:flex">
