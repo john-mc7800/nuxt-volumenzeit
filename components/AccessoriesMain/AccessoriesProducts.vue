@@ -56,14 +56,14 @@ const goToPage = (page) => {
     <div class="mb-[70px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       <div v-for="product in paginatedProducts" :key="product.name" class="h-full w-full">
         <div class="h-92 m-0 text-center text-black" data-aos="fade-up">
-          <a href="/product" class="group relative mb-[15px] flex w-full flex-col items-center gap-y-1 object-contain text-center" @mouseenter="product.isHovered = true" @mouseleave="product.isHovered = false">
+          <NuxtLink href="/product" class="group relative mb-[15px] flex w-full flex-col items-center gap-y-1 object-contain text-center" @mouseenter="product.isHovered = true" @mouseleave="product.isHovered = false">
             <div class="h-full w-full rounded-xl">
               <img :src="product.isHovered ? product.hoverImageUrl : product.imageUrl" :alt="product.name" class="m-auto h-[250px] w-full object-contain transition-all duration-200 ease-in-out group-hover:scale-95" />
             </div>
             <h3 class="mb-1 text-center text-sm font-[500] leading-3 text-black">{{ product.name }}</h3>
             <p class="mB-1 leading-extra-loose text-center text-[10px] leading-3 text-[#939393]">{{ product.color }}</p>
             <h6 class="text-center text-lg leading-none text-black">{{ product.price }}</h6>
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </div>

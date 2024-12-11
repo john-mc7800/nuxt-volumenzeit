@@ -1,21 +1,6 @@
 <script setup lang="js">
 import AccessoriesProducts from '../AccessoriesMain/AccessoriesProducts.vue';
-import { useRoute } from 'vue-router';
-
-import { ref } from 'vue';
 import DefaultDropdown from '../reuseComponents/DefaultDropdown.vue';
-
-const isDropdownOpen = ref(false);
-const selectedOption = ref('Default');
-
-const toggleDropdown = () => {
-  isDropdownOpen.value = !isDropdownOpen.value;
-};
-
-const selectOption = (option) => {
-  selectedOption.value = option;
-  isDropdownOpen.value = false;
-};
 </script>
 
 <template>

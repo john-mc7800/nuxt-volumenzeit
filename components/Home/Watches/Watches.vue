@@ -8,32 +8,32 @@ const products = ref([
   {
     name: 'Volumenzeit S 1',
     price: 22588,
-    imageUrl: new URL('/public/images/watches/Volumenzeit_S-1.png', import.meta.url).href,
+    imageUrl: '/images/watches/Volumenzeit_S-1.png',
   },
   {
     name: 'Volumenzeit S 2',
     price: 17588,
-    imageUrl: new URL('/public/images/watches/Volumenzeit_S-2.png', import.meta.url).href,
+    imageUrl: '/images/watches/Volumenzeit_S-2.png',
   },
   {
     name: 'Volumenzeit S 3',
     price: 20588,
-    imageUrl: new URL('/public/images/watches/Volumenzeit_S-3.png', import.meta.url).href,
+    imageUrl: '/images/watches/Volumenzeit_S-3.png',
   },
   {
     name: 'Volumenzeit S 4',
     price: 22588,
-    imageUrl: new URL('/public/images/watches/Volumenzeit_S-4.png', import.meta.url).href,
+    imageUrl: '/public/images/watches/Volumenzeit_S-4.png',
   },
   {
     name: 'Volumenzeit S 5',
     price: 17588,
-    imageUrl: new URL('/public/images/watches/Volumenzeit_S-5.png', import.meta.url).href,
+    imageUrl: '/public/images/watches/Volumenzeit_S-5.png',
   },
   {
     name: 'Volumenzeit S 6',
     price: 20588,
-    imageUrl: new URL('/public/images/watches/Volumenzeit_S-6.png', import.meta.url).href,
+    imageUrl: '/public/images/watches/Volumenzeit_S-6.png',
   },
 ]);
 
@@ -87,13 +87,14 @@ const getSeverity = (status) => {
           <Carousel :showIndicators="false" :value="products" :numVisible="3" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true" prevIcon="custom-prev" nextIcon="custom-next">
             <template #item="slotProps">
               <div class="watches__slide swiper-slide h-full">
-                <a href="#" class="group flex h-full flex-col items-center gap-8">
+                <NuxtLink href="/product" class="group flex h-full flex-col items-center gap-8">
                   <div class="watches__img-block h-[16rem] rounded-xl bg-[radial-gradient(50.17%_50.17%_at_50.03%_49.91%,_#f9fafe_36.92%,_#f1f4fb_100%)] px-[25px] lg:h-[24.5425rem]">
                     <img :src="slotProps.data.imageUrl" :alt="slotProps.data.image" class="m-auto h-[95%] transition-all duration-200 ease-in-out group-hover:scale-95" />
+                    <!-- <img src="/images/watches/Volumenzeit_S-1.png" :alt="slotProps.data.image" class="m-auto h-[95%] transition-all duration-200 ease-in-out group-hover:scale-95" /> -->
                   </div>
                   <p class="mt-8 text-center text-[1rem] leading-3 text-[#939393] md:mt-10 lg:mt-12">{{ slotProps.data.name }}</p>
                   <h6 class="text-center text-[1.625rem] leading-6 text-black lg:mb-8">${{ slotProps.data.price }}</h6>
-                </a>
+                </NuxtLink>
               </div>
             </template>
 
