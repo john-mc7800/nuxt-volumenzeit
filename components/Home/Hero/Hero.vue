@@ -19,24 +19,24 @@ import DesignButton from '@/components/DesignButton.vue';
           <h6 class="whitespace-nowrap py-4 font-spaceAge text-[14px] font-normal leading-[12px] tracking-[0.44em] text-black">Follow us</h6>
           <ul class="main__social flex items-center gap-2.5 py-2 lg:justify-center">
             <li class="rounded-full bg-white shadow-md transition-all duration-300 ease-linear">
-              <NuxtLink to="/"><img src="/public/images/hero/facebook.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
+              <NuxtLink to="/"><img src="/images/hero/facebook.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
               <!-- <NuxtLink to="/facebook"></NuxtLink> -->
             </li>
             <li class="rounded-full bg-white shadow-md transition-all duration-300 ease-linear">
-              <NuxtLink to="/"><img src="/public/images/hero/pinterest.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
+              <NuxtLink to="/"><img src="/images/hero/pinterest.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
             </li>
             <li class="rounded-full bg-white shadow-md transition-all duration-300 ease-linear">
-              <NuxtLink to="/"><img src="/public/images/hero/twitter.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
+              <NuxtLink to="/"><img src="/images/hero/twitter.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
             </li>
             <li class="rounded-full bg-white shadow-md transition-all duration-300 ease-linear">
-              <NuxtLink to="/"><img src="/public/images/hero/instagram.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
+              <NuxtLink to="/"><img src="/images/hero/instagram.svg" alt="" class="main__social-img opacity-70 transition-all duration-300 ease-linear" /></NuxtLink>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="absolute -right-[90px] bottom-6 z-0 h-fit md:-right-[265px] md:bottom-0 md:top-0 lg:-right-[275px] lg:bottom-6">
-      <img data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" src="/public/images/hero/watch.png" alt="" class="main__img" />
+      <img data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" src="/images/hero/watch.png" alt="" class="main__img" />
     </div>
   </div>
 </template>

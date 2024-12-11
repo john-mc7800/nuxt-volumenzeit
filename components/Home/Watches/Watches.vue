@@ -5,76 +5,20 @@ import { ref } from 'vue';
 import DesignButton from '@/components/DesignButton.vue';
 
 const products = ref([
-  {
-    name: 'Volumenzeit S 1',
-    price: 22588,
-    imageUrl: '/images/watches/Volumenzeit_S-1.png',
-  },
-  {
-    name: 'Volumenzeit S 2',
-    price: 17588,
-    imageUrl: '/images/watches/Volumenzeit_S-2.png',
-  },
-  {
-    name: 'Volumenzeit S 3',
-    price: 20588,
-    imageUrl: '/images/watches/Volumenzeit_S-3.png',
-  },
-  {
-    name: 'Volumenzeit S 4',
-    price: 22588,
-    imageUrl: '/images/watches/Volumenzeit_S-4.png',
-  },
-  {
-    name: 'Volumenzeit S 5',
-    price: 17588,
-    imageUrl: '/images/watches/Volumenzeit_S-5.png',
-  },
-  {
-    name: 'Volumenzeit S 6',
-    price: 20588,
-    imageUrl: '/images/watches/Volumenzeit_S-6.png',
-  },
+  { name: 'Volumenzeit S 1', price: 22588, imageUrl: '/images/watches/Volumenzeit_S-1.png' },
+  { name: 'Volumenzeit S 2', price: 17588, imageUrl: '/images/watches/Volumenzeit_S-2.png' },
+  { name: 'Volumenzeit S 3', price: 20588, imageUrl: '/images/watches/Volumenzeit_S-3.png' },
+  { name: 'Volumenzeit S 4', price: 22588, imageUrl: '/images/watches/Volumenzeit_S-4.png' },
+  { name: 'Volumenzeit S 5', price: 17588, imageUrl: '/images/watches/Volumenzeit_S-5.png' },
+  { name: 'Volumenzeit S 6', price: 20588, imageUrl: '/images/watches/Volumenzeit_S-6.png' },
 ]);
 
 const responsiveOptions = ref([
-  {
-    breakpoint: '1400px',
-    numVisible: 3,
-    numScroll: 1,
-  },
-  {
-    breakpoint: '1199px',
-    numVisible: 3,
-    numScroll: 1,
-  },
-  {
-    breakpoint: '767px',
-    numVisible: 2,
-    numScroll: 1,
-  },
-  {
-    breakpoint: '575px',
-    numVisible: 1,
-    numScroll: 1,
-  },
+  { breakpoint: '1400px', numVisible: 3, numScroll: 1 },
+  { breakpoint: '1199px', numVisible: 3, numScroll: 1 },
+  { breakpoint: '767px', numVisible: 2, numScroll: 1 },
+  { breakpoint: '575px', numVisible: 1, numScroll: 1 },
 ]);
-
-const getSeverity = (status) => {
-  switch (status) {
-    case 'INSTOCK':
-      return 'success';
-
-    case 'LOWSTOCK':
-      return 'warn';
-
-    case 'OUTOFSTOCK':
-      return 'danger';
-
-    default:
-      return null;
-  }
-};
 </script>
 
 <template>

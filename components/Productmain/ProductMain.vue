@@ -21,6 +21,12 @@ const products = ref([
   { name: 'Keychain Heart Song Pink', color: 'Handcrafted Silicone Keychain', price: '€41', imageUrl: new URL('/public/images/Accessories/KC4.webp', import.meta.url).href, hoverImageUrl: new URL('/public/images/Accessories/KC4a.webp', import.meta.url).href },
   { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('/public/images/Jewelry/Pendant_HeartSong_with_chain.webp', import.meta.url).href },
 ]);
+const images = [
+  { src: '/images/warchespage/watches2/watches1.webp', alt: 'Watches Image 1', class: '' },
+  { src: '/images/warchespage/watches/watches1.webp', alt: 'Watches Image 2', class: '' },
+  { src: '/images/productpage/p1.webp', alt: 'Product Image 1', class: 'h-53 w-full rounded-md' },
+  { src: '/images/productpage/p2.jpg', alt: 'Product Image 2', class: 'h-[240px] w-full rounded-md' },
+];
 </script>
 
 <template>
@@ -30,17 +36,8 @@ const products = ref([
       <div class="lg::pr-5 mx-auto h-auto w-full max-w-[730px]">
         <div class="mx-auto grid grid-cols-1 gap-7 md:grid-cols-2">
           <!-- Images Section -->
-          <div class="h-full w-full object-contain">
-            <img data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" src="/public/images/warchespage/watches2/watches1.webp" alt="" />
-          </div>
-          <div class="h-full w-full object-contain">
-            <img data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" src="/public/images/warchespage/watches/watches1.webp" alt="" />
-          </div>
-          <div class="h-full object-contain">
-            <img data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" src="/public/images/productpage/p1.webp" alt="" class="h-53 w-full rounded-md" />
-          </div>
-          <div class="h-full w-full object-contain">
-            <img data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" src="/public/images/productpage/p2.jpg" alt="" class="h-[240px] w-full rounded-md" />
+          <div v-for="(image, index) in images" :key="index" class="h-full w-full object-contain">
+            <img dataAos="zoom-in-up" , dataAosDelay="100" dataAosDuration="1000" :src="image.src" :alt="image.alt" :class="image.class" />
           </div>
         </div>
         <!-- Product Details -->
@@ -107,7 +104,7 @@ const products = ref([
           <button class="rounded-[5px] bg-customPurple px-11 py-5 text-center leading-none text-white">Place an Order</button>
           <p class="w-full max-w-full text-center text-xl font-normal text-black">€297</p>
         </div>
-        <RouterLink to="#" class="mb-5 flex flex-row items-center justify-center gap-2 rounded-[5px] border border-black px-5 py-3"><img src="/public/images/box.png" alt="" class="h-8 w-8 rounded-md" />Try on in AR Online</RouterLink>
+        <RouterLink to="#" class="mb-5 flex flex-row items-center justify-center gap-2 rounded-[5px] border border-black px-5 py-3"><img src="/images/box.png" alt="" class="h-8 w-8 rounded-md" />Try on in AR Online</RouterLink>
         <RouterLink to="#" class="mb-5 w-full rounded-[5px] bg-customPurple py-4 text-center text-white">Design Your Watch</RouterLink>
       </div>
     </div>
