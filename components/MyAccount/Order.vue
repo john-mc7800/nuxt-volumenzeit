@@ -1,0 +1,47 @@
+<!-- <script setup lang="js">
+import DashBoardCard from '../MyAccount/DashboardCard.vue';
+</script>
+
+<template>
+  <div class="md:pb-32">
+    <div class="-mt-[63px] pb-[38px]">
+      <p class="text-center text-4xl font-[500] leading-10 text-black md:text-[46px] md:font-[600]">Hey, Usama Mehmood</p>
+      <p class="mx-3 mt-4 text-center text-sm font-normal leading-loose text-customTextGray md:mx-0">Welcome to your dashboard, your one-stop-shop for all your recent Volumenzeit account activity.</p>
+    </div>
+    <DashBoardCard title="Order History" linkText="Browse products" linkTo="#" content="No order has been made yet." />
+    <div class="mx-auto mb-[60px] w-fit pt-[40px] md:pb-[50px]">
+      <RouterLink to="#" class="rounded-[5px] bg-customPurple px-[60px] py-[16px] text-sm leading-none text-white">Add New</RouterLink>
+    </div>
+  </div>
+</template> -->
+
+<template>
+  <div class="block">
+    <div class="relative flex items-center py-2 ps-6 md:pe-8 md:ps-12" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+      <!-- Icon, replace with the one from your icon library -->
+      <span class="cursor-pointer text-base text-indigo-700"> login </span>
+
+      <!-- Search form appears when isHovered is true -->
+      <div v-if="isHovered">
+        <form class="absolute right-0 top-[0px] mt-8 flex w-[300px] bg-white px-2 py-2 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-300 ease-in-out md:right-8 md:w-[330px]">
+          <input type="search" placeholder="Type Here" class="me-2 w-full border border-gray-300 bg-customGray p-2 text-lg outline-none placeholder:ps-4 placeholder:text-[16px]" />
+          <button class="bg-customPurple px-6 py-[14px] text-[15px] text-white">search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="js">
+import { ref } from 'vue';
+
+const isHovered = ref(false);
+
+const handleMouseEnter = () => {
+  isHovered.value = true;
+};
+
+const handleMouseLeave = () => {
+  isHovered.value = false;
+};
+</script>
