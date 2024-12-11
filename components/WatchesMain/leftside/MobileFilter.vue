@@ -2,7 +2,6 @@
 import PriceRange from '../PriceRange.vue';
 import Filters from '@/components/WatchesMain/Filters.vue';
 import { useRoute } from 'vue-router';
-import { NuxtLink } from 'vue-router';
 
 const route = useRoute();
 

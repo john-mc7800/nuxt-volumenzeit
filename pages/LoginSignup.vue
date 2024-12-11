@@ -1,17 +1,16 @@
 <script setup>
 import Login from '~/components/loginSignup/Login.vue';
 import SignUp from '~/components/loginSignup/SignUp.vue';
-import { useRoute, useRouter } from '#app'; // Import Nuxt hooks
+import { useRoute, useRouter } from '#app';
 
 definePageMeta({
-  layout: 'auth',
+  layout: false,
 });
 
-const route = useRoute(); // Get the current route
+const route = useRoute();
 
-// Navigation handler
 const navigateToPath = (path) => {
-  navigateTo(path); // Use navigateTo for navigation
+  navigateTo(path);
 };
 
 console.log(route);
@@ -23,7 +22,6 @@ console.log(route.name);
     <div class="mx-auto w-full max-w-[280px] bg-white md:max-w-[970px]">
       <div class="relative z-20 rounded-[10px] bg-white p-[0px] md:p-[58px]">
         <div class="card border-#EAECF5 flex flex-col items-center space-y-4 rounded-[10px] border py-8">
-          <!-- Tabs for Login and Sign Up -->
           <div class="grid w-full grid-cols-1 gap-0 pb-4 md:max-w-[78%] md:grid-cols-2">
             <div class="w-fill mb-8 text-center">
               <button @click="navigateToPath('/login')" :class="['border-b border-gray-300 px-24 pb-4 text-xl font-[600] text-black lg:px-[140px]', route.path === '/login' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">Login</button>
@@ -33,7 +31,6 @@ console.log(route.name);
             </div>
           </div>
 
-          <!-- Content Area -->
           <div class="w-full">
             <div>{{ route.name }}</div>
             <div class="">

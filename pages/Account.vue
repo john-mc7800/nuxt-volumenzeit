@@ -26,9 +26,9 @@ const navItems = [
       <div class="mx-auto max-w-[1140px] pt-[47px]">
         <div class="mx-auto mb-[136px] grid w-full max-w-[1040px] grid-cols-1 items-center justify-center gap-8 pb-4 md:grid-cols-3 md:gap-0">
           <div v-for="(item, index) in navItems" :key="index" class="text-center">
-            <RouterLink :to="item.path" :class="['box-content w-full border-b border-gray-300 pb-4 text-xl font-[600] text-black md:px-12', item.paddingClass, route.path === item.path ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">
+            <NuxtLink :to="item.path" :class="['box-content w-full border-b border-gray-300 pb-4 text-xl font-[600] text-black md:px-12', item.paddingClass, route.path === item.path ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">
               {{ item.name }}
-            </RouterLink>
+            </NuxtLink>
           </div>
         </div>
         <div class="mx-auto w-full max-w-[1100px]">

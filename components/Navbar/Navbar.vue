@@ -1,6 +1,6 @@
 <script setup lang="js">
 import { ref, onMounted } from 'vue';
-import { useRoute } from 'vue-router';
+// import { useRoute } from 'vue-router';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Icon } from '@iconify/vue';
@@ -49,16 +49,13 @@ const handleMouseLeave = () => {
       </span>
 
       <nav class="hidden justify-center lg:flex lg:flex-[1_1_auto]">
-        <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === link.to }" :data-goto-top="'120'" :data-goto="link.goto">
-          {{ link.label }}
-        </NuxtLink>
-        <!-- <ul class="flex gap-10 text-sm font-medium text-customTextGray">
+        <ul class="flex gap-10 text-sm font-medium text-customTextGray">
           <li v-for="link in navLinks" :key="link.to" :data-aos="'fade-right'" :data-aos-delay="link.delay">
             <NuxtLink :to="link.to" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === link.to }" :data-goto-top="'120'" :data-goto="link.goto">
               {{ link.label }}
             </NuxtLink>
           </li>
-        </ul> -->
+        </ul>
       </nav>
 
       <div class="hidden items-center gap-8 md:flex">

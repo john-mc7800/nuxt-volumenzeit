@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Footer from "~/components/Footer/Footer.vue";
+import Footer from '~/components/Footer/Footer.vue';
 </script>
 
 <template>
   <div>
     <Navbar />
-    <div class="mt-[70px] md:mt-[82px] ">  
+    <div class="mt-[70px] md:mt-[82px]">
       <slot />
     </div>
     <Footer />

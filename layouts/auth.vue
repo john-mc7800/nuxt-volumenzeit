@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import Footer from "~/components/Footer/Footer.vue";
+import Footer from '~/components/Footer/Footer.vue';
 </script>
 
 <template>
-  <div>
+  <!-- <div>
     suth lasyouty
       <slot />
-  </div>
+  </div> -->
+  fsfd
 </template>

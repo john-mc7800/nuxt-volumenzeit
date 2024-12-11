@@ -2,7 +2,6 @@
 import PriceRange from '../PriceRange.vue';
 import Filters from '../Filters.vue';
 import { useRoute } from 'vue-router';
-import { NuxtLink } from 'vue-router';
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import { ref, watch } from 'vue';
@@ -15,7 +14,6 @@ const props = defineProps({
   ShowFilters: {
     type: Boolean,
     default: true,
-    // required: true,
   },
 });
 
@@ -46,9 +44,7 @@ const route = useRoute();
           <li class="py-[5px] font-[400]">
             <NuxtLink to="/Watches" :class="{ 'font-[600] text-black transition-colors': route.path === '/Watches' }">Watches</NuxtLink>
           </li>
-          <li class="py-[5px] font-[400]">
-            <NuxtLink to="#" :class="{ 'font-[600] text-black transition-colors': route.path === '/Jewelry' }">Jewelry</NuxtLink>
-          </li>
+          <li class="py-[5px] font-[400]"><<NuxtLink to="#" :class="{ 'font-[600] text-black transition-colors': route.path === '/Jewelry' }">Jewelry</NuxtLink></li>
           <li class="py-[5px] font-[400]">
             <NuxtLink to="#" :class="{ 'font-[600] text-black transition-colors': route.path === '/Accessories' }">Accessories</NuxtLink>
           </li>

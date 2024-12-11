@@ -31,17 +31,17 @@ const items = ref([
   </div>
 </template>
 
-<style lang="scss" scoped>
-::v-deep .p-breadcrumb-separator {
+<style lang="" scoped>
+:v-deep .p-breadcrumb-separator {
   color: white !important;
 }
 
-::v-deep .p-breadcrumb-list {
+:v-deep .p-breadcrumb-list {
   gap: 2px !important;
   font-size: 14px;
   line-height: 16px;
 }
-::v-deep .p-breadcrumb-item-link {
+:v-deep .p-breadcrumb-item-link {
   gap: 2px !important;
   font-size: 14px;
   line-height: 16px;
