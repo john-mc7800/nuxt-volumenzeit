@@ -84,27 +84,6 @@ const handleMouseLeave = () => {
           </Drawer>
         </span>
       </div>
-
-      <!-- <span data-aos="fade-left" class="hidden md:block">
-        <NuxtLink  to="/login" class="relative"  @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave" >
-          <i class="pi pi-user text-2xl text-customTextGray"></i>
-          <div v-if="isHovered" class="absolute top-8 left-0 bg-white p-2 rounded shadow">usama</div>
-        </NuxtLink >
-      </span>
-      <span data-aos="fade-left" class="hidden md:block" @click="visibleRight = true">
-        <NuxtLink  to="#" class="">
-          <i class="pi pi-shopping-bag text-2xl text-customTextGray"></i>
-        </NuxtLink >
-
-        <Drawer v-model:visible="visibleRight" position="right" class="z-50 bg-[#f9fafe] p-0 px-0 font-spaceAge text-[20px] !font-thin leading-5 md:w-[27%]">
-          <template #header>
-            <div class="drawer-header-custom bg-[#f9fafe]">
-              <span class="header-title">your cart</span>
-            </div>
-          </template>
-          <AddToCart />
-        </Drawer>
-      </span> -->
     </div>
 
     <!-- Mobile Menu Button -->
