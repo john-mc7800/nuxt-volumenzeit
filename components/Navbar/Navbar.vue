@@ -44,7 +44,7 @@ const handleMouseLeave = () => {
     <div class="container z-30 m-auto flex max-w-[70rem] items-center justify-between py-2 lg:gap-7">
       <span data-aos="fade-right opacity-100">
         <NuxtLink to="/" class="w m-0 text-customGray lg:p-0">
-          <img data-aos="fade-right" src="/public/images/logo.svg" alt="Logo" class="h-[30px] w-[260px] lg:h-[34px] lg:w-[270px]" />
+          <img data-aos="fade-right" src="@/assets/images/logo.svg" alt="Logo" class="h-[30px] w-[260px] lg:h-[34px] lg:w-[270px]" />
         </NuxtLink>
       </span>
 

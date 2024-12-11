@@ -36,9 +36,9 @@
         </div>
 
         <div data-da=".features__wrapper,1160" class="features__center -z-1 relative top-16 w-[100vw] flex-1">
-          <img data-aos="zoom-in" data-aos-anchor=".features__container" src="/public/images/feature/watch.png" alt="" class="features__watch relative bottom-[55px] left-[calc(0%+0px)] w-64 object-contain align-top lg:-top-[54px] lg:left-[140px] lg:w-64 xl:bottom-[50px] xl:left-[calc(27%+0px)] xl:w-64" />
+          <img data-aos="zoom-in" data-aos-anchor=".features__container" src="@/assets/images/feature/watch.png" alt="" class="features__watch relative bottom-[55px] left-[calc(0%+0px)] w-64 object-contain align-top lg:-top-[54px] lg:left-[140px] lg:w-64 xl:bottom-[50px] xl:left-[calc(27%+0px)] xl:w-64" />
 
-          <img data-aos="zoom-in" data-aos-anchor=".features__container" data-aos-delay="100" src="/public/images/feature/circles.svg" alt="" class="features__circles scale-800 absolute -top-[calc(50%+0px)] left-0 w-fit transform object-contain align-top" />
+          <img data-aos="zoom-in" data-aos-anchor=".features__container" data-aos-delay="100" src="@/assets/images/feature/circles.svg" alt="" class="features__circles scale-800 absolute -top-[calc(50%+0px)] left-0 w-fit transform object-contain align-top" />
         </div>
 
         <div class="features__rigth">
@@ -65,9 +65,9 @@
 
       <div class="pb-24 lg:hidden">
         <div data-da=".features__wrapper,1160" class="features__center -z-1 relative top-0 mb-24 flex w-full lg:hidden">
-          <img data-aos="zoom-in" data-aos-anchor=".features__container" src="/public/images/feature/watch.png" alt="" class="features__watch relative left-[74px] top-[58px] w-36 object-contain align-top sm375:left-20 sm375:top-16 sm375:w-40 sm425:left-20 sm425:top-16 sm425:w-40 md:left-[calc(41%+0px)] md:top-[88px] md:w-44" />
+          <img data-aos="zoom-in" data-aos-anchor=".features__container" src="@/assets/images/feature/watch.png" alt="" class="features__watch relative left-[74px] top-[58px] w-36 object-contain align-top sm375:left-20 sm375:top-16 sm375:w-40 sm425:left-20 sm425:top-16 sm425:w-40 md:left-[calc(41%+0px)] md:top-[88px] md:w-44" />
 
-          <img data-aos="zoom-in" data-aos-anchor=".features__container" data-aos-delay="100" src="/public/images/feature/circles.svg" alt="" class="features__circles absolute left-0 top-0 w-96 scale-125 object-contain align-top md:left-[calc(28%+0px)]" />
+          <img data-aos="zoom-in" data-aos-anchor=".features__container" data-aos-delay="100" src="@/assets/images/feature/circles.svg" alt="" class="features__circles absolute left-0 top-0 w-96 scale-125 object-contain align-top md:left-[calc(28%+0px)]" />
         </div>
 
         <div class="relative top-24 flex h-48 justify-center md:mt-0">

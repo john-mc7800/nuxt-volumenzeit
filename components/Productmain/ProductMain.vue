@@ -18,8 +18,8 @@ const attributes = [
   { label: 'Strap Design', value: 'Shadow Black Leather' },
 ];
 const products = ref([
-  { name: 'Keychain Heart Song Pink', color: 'Handcrafted Silicone Keychain', price: '€41', imageUrl: new URL('/public/images/Accessories/KC4.webp', import.meta.url).href, hoverImageUrl: new URL('/public/images/Accessories/KC4a.webp', import.meta.url).href },
-  { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('/public/images/Jewelry/Pendant_HeartSong_with_chain.webp', import.meta.url).href },
+  { name: 'Keychain Heart Song Pink', color: 'Handcrafted Silicone Keychain', price: '€41', imageUrl: new URL('@/assets/images/Accessories/KC4.webp', import.meta.url).href, hoverImageUrl: new URL('@/assets/images/Accessories/KC4a.webp', import.meta.url).href },
+  { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('@/assets/images/Jewelry/Pendant_HeartSong_with_chain.webp', import.meta.url).href },
 ]);
 const images = [
   { src: '/images/warchespage/watches2/watches1.webp', alt: 'Watches Image 1', class: '' },

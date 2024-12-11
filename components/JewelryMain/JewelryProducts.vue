@@ -3,10 +3,10 @@ import { ref, computed } from 'vue';
 import Paginator from 'primevue/paginator';
 
 const products = ref([
-  { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: '/public/images/Jewelry/Pendant_HeartSong_with_chain.webp', hoverImageUrl: '/public/images/Jewelry/Pendant_HeartSong.webp' },
-  { name: 'Rising High Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: '/public/images/Jewelry/Pendant_RisingHigh_with_chain.webp', hoverImageUrl: '/public/images/Jewelry/Pendant_RisingHigh.webp' },
-  { name: 'Urban Eagle Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: '/public/images/Jewelry/Pendant_UrbanEagle_with_chain.webp', hoverImageUrl: '/public/images/Jewelry/Pendant_UrbanEagle.webp' },
-  { name: 'Vector Ville Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: '/public/images/Jewelry/Pendant_VectorVille_with_chain.webp', hoverImageUrl: '/public/images/Jewelry/Pendant_VectorVille.webp' },
+  { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('@/assets/images/Jewelry/Pendant_HeartSong_with_chain.webp', import.meta.url).href, hoverImageUrl: new URL('@/assets/images/Jewelry/Pendant_HeartSong.webp', import.meta.url).href },
+  { name: 'Rising High Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('@/assets/images/Jewelry/Pendant_RisingHigh_with_chain.webp', import.meta.url).href, hoverImageUrl: new URL('@/assets/images/Jewelry/Pendant_RisingHigh.webp', import.meta.url).href },
+  { name: 'Urban Eagle Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('@/assets/images/Jewelry/Pendant_UrbanEagle_with_chain.webp', import.meta.url).href, hoverImageUrl: new URL('@/assets/images/Jewelry/Pendant_UrbanEagle.webp', import.meta.url).href },
+  { name: 'Vector Ville Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('@/assets/images/Jewelry/Pendant_VectorVille_with_chain.webp', import.meta.url).href, hoverImageUrl: new URL('@/assets/images/Jewelry/Pendant_VectorVille.webp', import.meta.url).href },
 ]);
 
 const currentPage = ref(1);
