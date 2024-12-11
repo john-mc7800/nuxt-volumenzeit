@@ -23,17 +23,17 @@ const products = ref([
   {
     name: 'Volumenzeit S 4',
     price: 22588,
-    imageUrl: '/public/images/watches/Volumenzeit_S-4.png',
+    imageUrl: '/images/watches/Volumenzeit_S-4.png',
   },
   {
     name: 'Volumenzeit S 5',
     price: 17588,
-    imageUrl: '/public/images/watches/Volumenzeit_S-5.png',
+    imageUrl: '/images/watches/Volumenzeit_S-5.png',
   },
   {
     name: 'Volumenzeit S 6',
     price: 20588,
-    imageUrl: '/public/images/watches/Volumenzeit_S-6.png',
+    imageUrl: '/images/watches/Volumenzeit_S-6.png',
   },
 ]);
 
@@ -90,7 +90,6 @@ const getSeverity = (status) => {
                 <NuxtLink href="/product" class="group flex h-full flex-col items-center gap-8">
                   <div class="watches__img-block h-[16rem] rounded-xl bg-[radial-gradient(50.17%_50.17%_at_50.03%_49.91%,_#f9fafe_36.92%,_#f1f4fb_100%)] px-[25px] lg:h-[24.5425rem]">
                     <img :src="slotProps.data.imageUrl" :alt="slotProps.data.image" class="m-auto h-[95%] transition-all duration-200 ease-in-out group-hover:scale-95" />
-                    <!-- <img src="/images/watches/Volumenzeit_S-1.png" :alt="slotProps.data.image" class="m-auto h-[95%] transition-all duration-200 ease-in-out group-hover:scale-95" /> -->
                   </div>
                   <p class="mt-8 text-center text-[1rem] leading-3 text-[#939393] md:mt-10 lg:mt-12">{{ slotProps.data.name }}</p>
                   <h6 class="text-center text-[1.625rem] leading-6 text-black lg:mb-8">${{ slotProps.data.price }}</h6>
