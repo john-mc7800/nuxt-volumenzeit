@@ -1,5 +1,5 @@
 <script setup lang="js">
-import { RouterLink, useRoute } from 'vue-router';
+import { useRoute } from 'vue-router';
 import NewsLetter from '../components/Home/NewsLetter/NewsLetter.vue';
 import Dashboard from '../components/MyAccount/DashBoard.vue';
 import Order from '../components/MyAccount/Order.vue';
@@ -31,10 +31,10 @@ const navItems = [
           </div>
         </div>
         <div class="mx-auto w-full max-w-6xl">
-          {{ router.name }}
-          <Order v-if="route.name === 'Order'" />
-          <Dashboard v-if="route.name === 'My Account'" />
-          <Contact v-if="route.name === 'Contact'" />
+          <!-- {{ route.path }} -->
+          <Order v-if="route.path === '/order'" />
+          <Dashboard v-if="route.path === '/account'" />
+          <Contact v-if="route.path === '/contact'" />
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import SignUp from '~/components/loginSignup/SignUp.vue';
 import { useRoute } from '#app';
 
 definePageMeta({
-  layout: 'false',
+  layout: '',
 });
 
 const route = useRoute();
@@ -28,14 +28,15 @@ console.log(route.name);
             </div>
             <div class="text-center">
               <button :class="['box-content border-b border-gray-300 px-10 pb-4 text-xl font-[600] text-black lg:px-[84px]', route.path === '/signup' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">Create Account</button>
+              <!-- <button @click="navigateToPath('/signup')" :class="['border-b border-gray-300 px-16 pb-4 text-xl font-[600] text-black lg:px-[140px]', route.path === '/signup' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">Create Account</button> -->
             </div>
           </div>
 
           <div class="w-full">
-            <div>{{ route.name }}</div>
+            <div>{{ route.path }}</div>
             <div class="">
-              <SignUp v-if="route.name === 'signup'" />
-              <Login v-if="route.name === 'login'" />
+              <SignUp v-if="route.path === '/signup'" />
+              <Login v-if="route.path === '/login'" />
             </div>
           </div>
         </div>

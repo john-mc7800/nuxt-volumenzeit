@@ -1,3 +1,8 @@
+<script setup>
+definePageMeta({
+  layout: 'auth',
+});
+</script>
 <template>
-  <div>signup pages</div>
+  <div>signup page</div>
 </template>
