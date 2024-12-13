@@ -10,8 +10,8 @@
       <div class="design__inner w-fill relative mx-0 mb-[4.875rem] mt-[5.625rem] grid items-center justify-center gap-10 px-16 lg:grid-cols-[80px_1fr_80px_1fr_80px_1fr_80px] lg:flex-row lg:gap-0">
         <div class="flex flex-row items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="50" class="design__block design__block1 truncate-3-lines box-border flex w-20 flex-col items-center gap-[1.875rem] text-xs">
-            <span class="design__number h-14.54 relative order-2 mx-auto box-border flex w-14 items-center rounded-full border border-white font-spaceAge text-3xl font-[400] before:absolute before:left-1/2 before:top-1/2 before:h-20 before:w-20 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-white/20 before:content-[''] lg:order-1">
-              <span class="lg:after:h-14.5 mx-auto after:absolute after:right-8 after:top-20 after:h-8 after:w-0.5 after:-translate-y-1/2 after:bg-white after:content-[''] lg:after:-right-11 lg:after:top-1/2 lg:after:w-8 lg:after:bg-transparent">
+            <span class="design__number relative order-2 box-border flex h-14 w-[60.4px] items-center rounded-full border border-white font-spaceAge text-3xl font-[400] before:absolute before:left-1/2 before:top-1/2 before:h-[86.11px] before:w-[86.11px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-white/20 before:content-[''] lg:order-1">
+              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-50px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:right-[15px] after:top-[66px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:right-[-58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
                 <span>1</span>
               </span>
             </span>

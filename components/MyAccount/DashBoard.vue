@@ -14,7 +14,7 @@ import DashBoardCard from '../MyAccount/DashboardCard.vue';
     <DashBoardCard title="Address Book" linkText="Manage Addresses" linkTo="#" content="You have not set up this type of address yet." />
     <DashBoardCard title="Subscriptions" linkText="Manage Subscriptions" linkTo="#" />
     <div class="mx-auto mb-[60px] w-fit pt-[40px] md:pb-[50px]">
-      <RouterLink to="#" class="rounded-[5px] bg-customPurple px-[60px] py-[16px] text-sm leading-none text-white">Add New</RouterLink>
+      <RouterLink to="#" class="rounded-md bg-customPurple px-[60px] py-[16px] text-sm leading-none text-white">Add New</RouterLink>
     </div>
   </div>
 </template>

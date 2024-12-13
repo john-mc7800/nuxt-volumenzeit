@@ -19,17 +19,17 @@ const visibleTop = ref(false);
       <Button icon="pi pi-angle-down" class="border border-customPurple bg-transparent p-1 text-customPurple" style="font-size: 1.2rem" @click="visibleTop = true" />
     </div>
     <Drawer v-model:visible="visibleTop" header="Filter" :blockScroll="true" position="top" class="relative top-52 h-fit overflow-y-auto bg-[#f9fafe] font-spaceAge">
-      <div class="font-poppins relative flex h-full w-full justify-center text-[12px]">
+      <div class="font-poppins relative flex h-full w-full justify-center text-xs">
         <div class="h-full w-full max-w-[265px] space-y-2 text-start font-[400] text-[#939393]" style="max-height: 500px">
           <form action="" class="space-y-2 border-b-2 border-[#e4e3ea] pb-[11px]">
             <label class="filter_heading">Search</label>
             <div class="flex max-w-[100%] flex-nowrap justify-between">
               <input type="search" name="s" class="placeholder: w-full min-w-[3rem] rounded-[10px] bg-white p-[6px]" placeholder="Type here..." />
-              <button type="submit" class="ml-[5px] cursor-pointer break-words rounded-[5px] border border-[#7a56b1] bg-transparent p-[5px] py-[11px] text-[#7a56b1] placeholder:text-black">Search</button>
+              <button type="submit" class="ml-[5px] cursor-pointer break-words rounded-md border border-[#7a56b1] bg-transparent p-[5px] py-[11px] text-[#7a56b1] placeholder:text-black">Search</button>
             </div>
           </form>
           <h3 class="filter_heading pt-[10px]">Select Products</h3>
-          <div class="space-y-4 text-[12px]">
+          <div class="space-y-4 text-xs">
             <ul class="space-y-3">
               <li class="py-[5px] font-[400]">
                 <NuxtLink to="/Watches" :class="{ 'font-[600] text-black transition-colors': route.path === '/Watches' }">Watches</NuxtLink>

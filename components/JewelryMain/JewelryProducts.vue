@@ -71,7 +71,7 @@ const goToPage = (page) => {
     </div>
 
     <div class="mt-20 text-center lg:mt-0 lg:text-end">
-      <NuxtLink to="#" class="rounded-[5px] bg-customPurple px-[44px] py-[20px] text-white lg:pl-[109px] lg:pr-[109px]"> Design Your Watch </NuxtLink>
+      <NuxtLink to="#" class="rounded-md bg-customPurple px-[44px] py-[20px] text-white lg:pl-[109px] lg:pr-[109px]"> Design Your Watch </NuxtLink>
     </div>
   </div>
 </template>

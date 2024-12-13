@@ -29,7 +29,7 @@ const route = useRoute();
 
 <template>
   <!-- Filter/Leftside for large screens -->
-  <div data-ao="fade-right" class="relative mr-[28px] hidden h-[978px] w-full justify-end bg-[#f9fafe] pb-[93px] pr-[50px] pt-[33px] text-[12px] md:flex">
+  <div data-ao="fade-right" class="relative mr-[28px] hidden h-[978px] w-full justify-end bg-[#f9fafe] pb-[93px] pr-[50px] pt-[33px] text-xs md:flex">
     <div class="h-[78px] w-full max-w-[205px] space-y-2 text-start font-[400] text-[#939393]">
       <div class="w-fit max-w-[205px] space-y-2 border-b-2 border-gray-500 border-opacity-60 pb-[11px]">
         <IconField>
@@ -39,7 +39,7 @@ const route = useRoute();
       </div>
 
       <h3 class="filter_heading pt-[10px]">Select Products</h3>
-      <div class="space-y-4 text-[12px]">
+      <div class="space-y-4 text-xs">
         <ul class="space-y-3">
           <li class="py-[5px] font-[400]">
             <NuxtLink to="/Watches" :class="{ 'font-[600] text-black transition-colors': route.path === '/Watches' }">Watches</NuxtLink>
