@@ -17,7 +17,7 @@ const navLinks = [
   { label: 'Watches', to: '/watches', delay: 100 },
   { label: 'Jewelry', to: '/jewelry', delay: 150 },
   { label: 'Accessories', to: '/accessories', delay: 200 },
-  { label: 'Brand', to: '/Brand', delay: 250 },
+  { label: 'Brand', to: '/brand', delay: 250 },
 ];
 
 onMounted(() => {

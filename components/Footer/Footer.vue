@@ -7,44 +7,44 @@ import ScrollTop from 'primevue/scrolltop';
 
 <template>
   <div class="bg-white">
-    <div class="relative mt-[64px] bg-[#f5f5f5] py-[80px] text-black md:px-[50px]">
-      <div class="mx-auto grid max-w-[1200px] grid-cols-2 justify-between md:grid-cols-4 md:pb-[100px]">
-        <div class="px-[15px]">
-          <h3 class="mb-[10px] font-spaceAge text-[18px]">Shop</h3>
+    <div class="relative mt-16 bg-[#f5f5f5] py-20 text-black md:px-12">
+      <div class="mx-auto grid max-w-6xl grid-cols-2 justify-between md:grid-cols-4 md:pb-24">
+        <div class="px-4">
+          <h3 class="mb-2 font-spaceAge text-lg">Shop</h3>
           <ul class="text-black">
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Shop Instagram</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Watches</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Jewellery</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Watch Straps</RouterLink></li>
-            <li class="font-4300] mb-[5px] text-sm leading-loose"><RouterLink to="#">Stores</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Shop Instagram</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Watches</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Jewellery</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Watch Straps</RouterLink></li>
+            <li class="font-4300] mb-1 text-sm leading-loose"><RouterLink to="#">Stores</RouterLink></li>
           </ul>
         </div>
-        <div class="px-[15px]">
+        <div class="px-">
           <h3 class="mb-[10px] font-spaceAge text-[18px]">Support</h3>
           <ul class="text-black">
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Customer Service</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">How to change your strap</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">How to adjust your mesh strap</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Customer Service</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">How to change your strap</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">How to adjust your mesh strap</RouterLink></li>
           </ul>
         </div>
         <div class="px-[15px]">
           <h3 class="mb-[10px] font-spaceAge text-[18px]">Information</h3>
           <ul class="text-black">
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Privacy Policy</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Terms of Service</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Return Policy</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Warranties</RouterLink></li>
-            <li class="font-4300] mb-[5px] text-sm leading-loose"><RouterLink to="#">Owners Guide </RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Privacy Policy</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Terms of Service</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Return Policy</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Warranties</RouterLink></li>
+            <li class="font-4300] mb-1 text-sm leading-loose"><RouterLink to="#">Owners Guide </RouterLink></li>
           </ul>
         </div>
         <div class="px-[15px]">
           <h3 class="mb-[10px] font-spaceAge text-[18px]">About Us</h3>
           <ul class="text-black">
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Our Story</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Accessibility</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Sustainability</RouterLink></li>
-            <li class="mb-[5px] text-sm font-[400] leading-loose"><RouterLink to="#">Career</RouterLink></li>
-            <li class="font-4300] mb-[5px] text-sm leading-loose"><RouterLink to="#">Become a Brandbassador</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Our Story</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Accessibility</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Sustainability</RouterLink></li>
+            <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Career</RouterLink></li>
+            <li class="font-4300] mb-1 text-sm leading-loose"><RouterLink to="#">Become a Brandbassador</RouterLink></li>
           </ul>
         </div>
       </div>

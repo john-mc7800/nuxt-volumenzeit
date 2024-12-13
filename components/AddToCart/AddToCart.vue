@@ -5,21 +5,21 @@
     <div class="h-[45%] md:h-[35%]">
       <p class="text-sm font-normal leading-loose text-[#939393]">Your cart is currently empty!</p>
     </div>
-    <div class="px- absolute bottom-0 h-[160px] w-full bg-[#f9fafe]">
-      <div class="mb-[28px]">
-        <div class="py-[16px]">
+    <div class="px- absolute bottom-0 h-40 w-full bg-[#f9fafe]">
+      <div class="mb-7">
+        <div class="py-4">
           <strong class="flex flex-row items-center justify-between">
-            <span class="text-[10px] font-normal">Shipping:</span>
-            <span class="text-[20px] leading-7">€0</span>
+            <span class="text-xs font-normal">Shipping:</span>
+            <span class="text-xl leading-7">€0</span>
           </strong>
         </div>
-        <div class="mb-[10px] border-b pb-[6px] text-left leading-loose">
-          <p class="text-[10px] font-normal leading-loose">Shipping, taxes, and discounts calculated at checkout.</p>
+        <div class="mb-3 border-b pb-2 text-left leading-loose">
+          <p class="text-xs font-normal leading-loose">Shipping, taxes, and discounts calculated at checkout.</p>
         </div>
-        <div class="pb-[6px]">
+        <div class="pb-2">
           <strong class="flex flex-row items-center justify-between">
-            <span class="text-left text-[10px] font-normal">Subtotal:</span>
-            <span class="text-[20px] leading-7">€0</span>
+            <span class="text-left text-xs font-normal">Subtotal:</span>
+            <span class="text-xl leading-7">€0</span>
           </strong>
         </div>
       </div>
