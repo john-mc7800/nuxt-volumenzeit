@@ -6,7 +6,7 @@
       <p class="text-sm font-normal leading-loose text-[#939393]">Your cart is currently empty!</p>
     </div>
     <div class="h-0.540 absolute bottom-0 w-full bg-[#f9fafe]">
-      <div class="mb-7">
+      <div class="mb-7 px-4">
         <div class="py-4">
           <strong class="flex flex-row items-center justify-between">
             <span class="text-xs font-normal">Shipping:</span>

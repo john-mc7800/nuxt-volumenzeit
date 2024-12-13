@@ -77,7 +77,7 @@ const handleMouseLeave = () => {
           <Drawer v-model:visible="visibleRight" position="right" class="text-5 z-50 bg-[#f9fafe] p-0 px-0 font-spaceAge !font-thin leading-5 md:w-[27%]">
             <template #header>
               <div class="drawer-header-custom bg-[#f9fafe]">
-                <span class="header-title">your cart</span>
+                <span class="header-title py-4 text-center">your cart</span>
               </div>
             </template>
             <AddToCart />
@@ -141,5 +141,10 @@ const handleMouseLeave = () => {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.drawer-header-custom {
+  width: 100%;
+  padding: 10px;
 }
 </style>
