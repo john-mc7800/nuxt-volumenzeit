@@ -20,15 +20,15 @@ import ScrollTop from 'primevue/scrolltop';
           </ul>
         </div>
         <div class="px-">
-          <h3 class="mb-[10px] font-spaceAge text-[18px]">Support</h3>
+          <h3 class="mb-2 font-spaceAge text-lg">Support</h3>
           <ul class="text-black">
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Customer Service</RouterLink></li>
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">How to change your strap</RouterLink></li>
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">How to adjust your mesh strap</RouterLink></li>
           </ul>
         </div>
-        <div class="px-[15px]">
-          <h3 class="mb-[10px] font-spaceAge text-[18px]">Information</h3>
+        <div class="px-4">
+          <h3 class="mb-2 font-spaceAge text-lg">Information</h3>
           <ul class="text-black">
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Privacy Policy</RouterLink></li>
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Terms of Service</RouterLink></li>
@@ -37,8 +37,8 @@ import ScrollTop from 'primevue/scrolltop';
             <li class="font-4300] mb-1 text-sm leading-loose"><RouterLink to="#">Owners Guide </RouterLink></li>
           </ul>
         </div>
-        <div class="px-[15px]">
-          <h3 class="mb-[10px] font-spaceAge text-[18px]">About Us</h3>
+        <div class="px-4">
+          <h3 class="mb-2 font-spaceAge text-lg">About Us</h3>
           <ul class="text-black">
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Our Story</RouterLink></li>
             <li class="mb-1 text-sm font-[400] leading-loose"><RouterLink to="#">Accessibility</RouterLink></li>
@@ -49,10 +49,10 @@ import ScrollTop from 'primevue/scrolltop';
         </div>
       </div>
 
-      <div class="mx-auto mt-5 grid w-full max-w-[1200px] grid-cols-1 items-end justify-between pt-[20px] md:grid-cols-2 md:px-[20px]">
-        <div class="px-[15px]">
+      <div class="mx-auto mt-5 grid w-full max-w-6xl grid-cols-1 items-end justify-between pt-5 md:grid-cols-2 md:px-5">
+        <div class="px-4">
           <ul class="flex flex-row flex-wrap gap-y-6">
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pi-american_express" viewBox="0 0 38 24" width="38" height="24">
                 <title id="pi-american_express">American Express</title>
                 <path fill="#000" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z" opacity=".07"></path>
@@ -65,7 +65,7 @@ import ScrollTop from 'primevue/scrolltop';
                 <path fill="#006FCF" d="M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z"></path>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965" xml:space="preserve" aria-labelledby="pi-apple_pay">
                 <title id="pi-apple_pay">Apple Pay</title>
                 <path fill="#000" d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z"></path>
@@ -83,7 +83,7 @@ import ScrollTop from 'primevue/scrolltop';
                 </g>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" viewBox="0 0 38 24" aria-labelledby="pi-klarna">
                 <title id="pi-klarna">Klarna</title>
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -93,7 +93,7 @@ import ScrollTop from 'primevue/scrolltop';
                 </g>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-maestro">
                 <title id="pi-maestro">Maestro</title>
                 <path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path>
@@ -103,7 +103,7 @@ import ScrollTop from 'primevue/scrolltop';
                 <path fill="#7375CF" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master">
                 <title id="pi-master">Mastercard</title>
                 <path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path>
@@ -113,7 +113,7 @@ import ScrollTop from 'primevue/scrolltop';
                 <path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal">
                 <title id="pi-paypal">PayPal</title>
                 <path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path>
@@ -123,7 +123,7 @@ import ScrollTop from 'primevue/scrolltop';
                 <path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" viewBox="-36 25 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-unionpay">
                 <title id="pi-unionpay">Union Pay</title>
                 <path fill="#005B9A" d="M-36 46.8v.7-.7zM-18.3 25v24h-7.2c-1.3 0-2.1-1-1.8-2.3l4.4-19.4c.3-1.3 1.9-2.3 3.2-2.3h1.4zm12.6 0c-1.3 0-2.9 1-3.2 2.3l-4.5 19.4c-.3 1.3.5 2.3 1.8 2.3h-4.9V25h10.8z"></path>
@@ -136,7 +136,7 @@ import ScrollTop from 'primevue/scrolltop';
                 ></path>
               </svg>
             </li>
-            <li class="mb-[8px] mr-[14px] h-2 w-8">
+            <li class="mb-2 mr-4 h-2 w-8">
               <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa">
                 <title id="pi-visa">Visa</title>
                 <path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path>
@@ -145,7 +145,7 @@ import ScrollTop from 'primevue/scrolltop';
               </svg>
             </li>
           </ul>
-          <div class="mt-[28px]">
+          <div class="mt-7">
             <ul class="flex flex-row gap-5">
               <li class="">
                 <a href="#">
@@ -188,8 +188,8 @@ import ScrollTop from 'primevue/scrolltop';
             </ul>
           </div>
         </div>
-        <div class="px-[15px]">
-          <div class="mt-4 text-sm font-[400] leading-[14px] text-black md:text-right">© Copyright 2024 Volumenzeit — All rights reserved.</div>
+        <div class="px-4">
+          <div class="mt-4 text-sm font-[400] leading-4 text-black md:text-right">© Copyright 2024 Volumenzeit — All rights reserved.</div>
         </div>
       </div>
     </div>

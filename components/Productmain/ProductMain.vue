@@ -42,7 +42,7 @@ const images = [
         </div>
         <!-- Product Details -->
         <div class="text-[12px] text-black">
-          <h3 class="mb-[20px] mt-[30px] text-[18px] font-[600]">About the product</h3>
+          <h3 class="mb-[20px] mt-[30px] text-lg font-[600]">About the product</h3>
           <p class="text-customTextGray">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
         </div>
         <div class="py-20">
@@ -70,7 +70,7 @@ const images = [
       <!-- Right Side -->
       <div class="mx-auto flex w-full flex-col pt-4 md:px-12 lg:max-w-[350px] lg:px-0 lg:pt-0">
         <h2 class="mb-[15px] mt-4 text-center text-[25px] font-[450] leading-5 text-black md:mt-0 md:text-left md:leading-none">Heart Song 1</h2>
-        <p class="mb-[10px] text-center text-sm leading-tight text-customTextGray md:mb-[17px] md:text-left">Fuchsia Tinge</p>
+        <p class="mb-2 text-center text-sm leading-tight text-customTextGray md:mb-[17px] md:text-left">Fuchsia Tinge</p>
 
         <!-- Attributes -->
         <div class="border-y py-3">
