@@ -9,8 +9,8 @@
       <div class="about__right group relative">
         <a href="#" class="before:absolute before:h-[100%] before:w-[100%] before:rounded-md before:bg-gradient-to-t before:from-[#735cff] before:to-[#735cff] before:opacity-80 before:transition-opacity before:duration-500 before:ease-in-out before:content-[''] before:group-hover:opacity-50 2xl:before:h-96">
           <img class="about__video 2xl:w w-full 2xl:h-96" src="@/assets/images/about/video.png" alt="" />
-          <span class="about__poligon absolute left-1/2 top-1/2 z-10 h-[60px] w-[60px] -translate-x-[39px] -translate-y-[39px] transform rounded-full bg-[#f5f9ff] transition-transform duration-500 ease-in-out before:absolute before:left-[calc(50%-51px)] before:top-[calc(50%-51px)] before:h-[102px] before:w-[102px] before:rounded-full before:bg-[#f5f9ff] before:opacity-20 before:content-[''] group-hover:scale-110 md:h-[80px] md:w-[80px]">
-            <img class="w--8 absolute left-[31%] top-[21%] h-8 transition-transform duration-500 ease-in-out group-hover:scale-110 md:left-[24%] md:top-[20%] md:h-[50px] md:w-[50px]" src="@/assets/images/about/Polygon 1.svg" alt="" />
+          <span class="about__poligon absolute left-1/2 top-1/2 z-10 h-16 w-16 -translate-x-10 -translate-y-10 transform rounded-full bg-[#f5f9ff] transition-transform duration-500 ease-in-out before:absolute before:left-[calc(50%-51px)] before:top-[calc(50%-51px)] before:h-24 before:w-24 before:rounded-full before:bg-[#f5f9ff] before:opacity-20 before:content-[''] group-hover:scale-110 md:h-20 md:w-20">
+            <img class="w--8 absolute left-[31%] top-[21%] h-8 transition-transform duration-500 ease-in-out group-hover:scale-110 md:left-[24%] md:top-[20%] md:h-12 md:w-12" src="@/assets/images/about/Polygon 1.svg" alt="" />
           </span>
         </a>
       </div>

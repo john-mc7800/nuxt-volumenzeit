@@ -11,8 +11,8 @@ const value = ref([20, 80]);
         <Slider v-model="value" range class="w-56" :min="0" :max="300" />
       </div>
       <div class="mt-4 flex justify-between text-[.875em] text-gray-600">
-        <input type="text" :value="`€ 0`" class="w-auto max-w-[60px] p-[8px] text-center" />
-        <input type="text" :value="`€ 300`" class="w-auto max-w-[60px] p-[8px] text-center" />
+        <input type="text" :value="`€ 0`" class="w-auto max-w-16 p-[8px] text-center" />
+        <input type="text" :value="`€ 300`" class="w-auto max-w-16 p-[8px] text-center" />
       </div>
     </div>
   </div>
