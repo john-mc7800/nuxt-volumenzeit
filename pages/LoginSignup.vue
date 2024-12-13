@@ -1,10 +1,10 @@
 <script setup>
 import Login from '~/components/loginSignup/Login.vue';
 import SignUp from '~/components/loginSignup/SignUp.vue';
-import { useRoute, useRouter } from '#app';
+import { useRoute } from '#app';
 
 definePageMeta({
-  layout: false,
+  layout: 'false',
 });
 
 const route = useRoute();
