@@ -18,14 +18,14 @@ const attributes = [
   { label: 'Strap Design', value: 'Shadow Black Leather' },
 ];
 const products = ref([
-  { name: 'Keychain Heart Song Pink', color: 'Handcrafted Silicone Keychain', price: '€41', imageUrl: new URL('@/assets/images/Accessories/KC4.webp', import.meta.url).href, hoverImageUrl: new URL('@/assets/images/Accessories/KC4a.webp', import.meta.url).href },
-  { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: new URL('@/assets/images/Jewelry/Pendant_HeartSong_with_chain.webp', import.meta.url).href },
+  { name: 'Keychain Heart Song Pink', color: 'Handcrafted Silicone Keychain', price: '€41', imageUrl: '/Productpage/KC4.webp', hoverImageUrl: '/Productpage/KC4a.webp' },
+  { name: 'Heart Song Pendant', color: 'Silver Pendant + Silver Chain', price: '€104', imageUrl: 'Productpage/Pendant_HeartSong_with_chain.webp', hoverImageUrl: '/Productpage/Pendant_HeartSong.webp' },
 ]);
 const images = [
-  { src: '/images/warchespage/watches2/watches1.webp', alt: 'Watches Image 1', class: '' },
-  { src: '/images/warchespage/watches/watches1.webp', alt: 'Watches Image 2', class: '' },
-  { src: '/images/productpage/p1.webp', alt: 'Product Image 1', class: 'h-53 w-full rounded-md' },
-  { src: '/images/productpage/p2.jpg', alt: 'Product Image 2', class: 'h-60 w-full rounded-md' },
+  { src: '/warchespage/watches2/watches1.webp', alt: 'Watches Image 1', class: '' },
+  { src: '/warchespage/watches/watches1.webp', alt: 'Watches Image 2', class: '' },
+  { src: '/productpage/p1.webp', alt: 'Product Image 1', class: 'h-53 w-full rounded-md' },
+  { src: '/productpage/p2.jpg', alt: 'Product Image 2', class: 'h-60 w-full rounded-md' },
 ];
 </script>
 
@@ -53,7 +53,7 @@ const images = [
               <div class="m-0 text-center text-black" data-aos="fade-up">
                 <a href="#" class="group relative mx-auto mb-4 flex w-full flex-col items-center gap-y-4 text-center" @mouseenter="product.isHovered = true" @mouseleave="product.isHovered = false">
                   <div class="h-full w-full rounded-xl">
-                    <img :src="product.imageUrl" :alt="product.name" class="m-auto h-auto w-full object-contain transition-all duration-200 ease-in-out group-hover:scale-95" height="200px" width="200px" />
+                    <img :src="product.isHovered ? product.hoverImageUrl : product.imageUrl" :alt="product.name" class="m-auto h-auto w-full object-contain transition-all duration-200 ease-in-out group-hover:scale-95" height="200px" width="200px" />
                   </div>
                   <h3 class="mb-1 text-center text-sm font-normal leading-3 text-customTextGray">{{ product.name }}</h3>
                   <h6 class="text-center text-lg leading-none text-black">{{ product.price }}</h6>
@@ -104,8 +104,11 @@ const images = [
           <button class="rounded-md bg-customPurple px-11 py-5 text-center leading-none text-white">Place an Order</button>
           <p class="w-full max-w-full text-center text-xl font-normal text-black">€297</p>
         </div>
-        <RouterLink to="#" class="mb-5 flex flex-row items-center justify-center gap-2 rounded-md border border-black px-5 py-3"> <img :src="require('@/assets/images/box.png')" alt="Box Image" class="h-8 w-8 rounded-md" />Try on in AR Online</RouterLink>
-        <RouterLink to="#" class="mb-5 w-full rounded-md bg-customPurple py-4 text-center text-white">Design Your Watch</RouterLink>
+        <NuxtLink to="#" class="mb-5 flex flex-row items-center justify-center gap-2 rounded-md border border-black px-5 py-3">
+          <img src="@/assets/images/box.png" alt="Box Image" class="h-8 w-8 rounded-md" />
+          Try on in AR Online</NuxtLink
+        >
+        <NuxtLink to="#" class="mb-5 w-full rounded-md bg-customPurple py-4 text-center text-white">Design Your Watch</NuxtLink>
       </div>
     </div>
   </div>

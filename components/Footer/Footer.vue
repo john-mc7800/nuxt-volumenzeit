@@ -1,5 +1,4 @@
 <script setup>
-import { useRoute } from 'vue-router';
 import { Icon } from '@iconify/vue';
 
 import ScrollTop from 'primevue/scrolltop';
