@@ -3,7 +3,6 @@ import { RouterLink, useRoute } from 'vue-router';
 import NewsLetter from '../components/Home/NewsLetter/NewsLetter.vue';
 import Dashboard from '../components/MyAccount/DashBoard.vue';
 import Order from '../components/MyAccount/Order.vue';
-import router from '../router';
 import Contact from '../components/MyAccount/Contact.vue';
 const route = useRoute();
 // console.log(route);

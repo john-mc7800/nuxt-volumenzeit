@@ -34,7 +34,7 @@ const route = useRoute();
       <div class="w-fit max-w-[205px] space-y-2 border-b-2 border-gray-500 border-opacity-60 pb-[11px]">
         <IconField>
           <InputIcon class="pi pi-search" />
-          <InputText id="on_label" v-model="value3" autocomplete="on" class="h-10 w-fit max-w-[205px] bg-[#f9fafe]" />
+          <InputText id="on_label" v-model="value3" autocomplete="on" class="h-0.54.50 w-fit max-w-[205px] bg-[#f9fafe]" />
         </IconField>
       </div>
 

@@ -5,7 +5,7 @@
     <div class="h-[45%] md:h-[35%]">
       <p class="text-sm font-normal leading-loose text-[#939393]">Your cart is currently empty!</p>
     </div>
-    <div class="px- absolute bottom-0 h-40 w-full bg-[#f9fafe]">
+    <div class="h-0.540 absolute bottom-0 w-full bg-[#f9fafe]">
       <div class="mb-7">
         <div class="py-4">
           <strong class="flex flex-row items-center justify-between">

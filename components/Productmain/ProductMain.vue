@@ -86,7 +86,7 @@ const images = [
             <input id="ingredient1" type="checkbox" v-model="strap" class="checked:before:-mt-0.7 h-5 w-5 cursor-default appearance-none rounded-md bg-gray-100 text-sm leading-tight text-customTextGray checked:border-purple-600 checked:bg-purple-600 checked:before:flex checked:before:justify-center checked:before:text-sm checked:before:text-white checked:before:content-['✔']" />
             <label for="ingredient1" class="text-sm font-medium text-customTextGray"> Extra Strap </label>
             <p class="cursor-default">(From €20)</p>
-            <button class="flex h-6 w-6 cursor-default items-center justify-center rounded-full text-gray-600 transition-colors duration-200">
+            <button class="h-0.54 flex w-6 cursor-default items-center justify-center rounded-full text-gray-600 transition-colors duration-200">
               <i class="pi pi-info-circle" style="font-size: 1rem"></i>
             </button>
           </div>
@@ -94,7 +94,7 @@ const images = [
             <input id="ingredient1" type="checkbox" v-model="strap" class="checked:before:-mt-0.7 h-5 w-5 cursor-default appearance-none rounded-md bg-gray-100 text-sm leading-tight text-customTextGray checked:border-purple-600 checked:bg-purple-600 checked:before:flex checked:before:justify-center checked:before:text-sm checked:before:text-white checked:before:content-['✔']" />
             <label for="ingredient1" class="text-sm font-medium text-customTextGray"> Laser Engraving </label>
             <p class="cursor-default">(+€20)</p>
-            <button class="flex h-6 w-6 cursor-default items-center justify-center rounded-full text-gray-600 transition-colors duration-200">
+            <button class="h-0.54 flex w-6 cursor-default items-center justify-center rounded-full text-gray-600 transition-colors duration-200">
               <i class="pi pi-info-circle" style="font-size: 1rem"></i>
             </button>
           </div>
@@ -104,7 +104,11 @@ const images = [
           <button class="rounded-[5px] bg-customPurple px-11 py-5 text-center leading-none text-white">Place an Order</button>
           <p class="w-full max-w-full text-center text-xl font-normal text-black">€297</p>
         </div>
-        <RouterLink to="#" class="mb-5 flex flex-row items-center justify-center gap-2 rounded-[5px] border border-black px-5 py-3"><img src="/images/box.png" alt="" class="h-8 w-8 rounded-md" />Try on in AR Online</RouterLink>
+        <RouterLink to="#" class="mb-5 flex flex-row items-center justify-center gap-2 rounded-[5px] border border-black px-5 py-3">
+          <img :src="require('@/assets/images/box.png')" alt="Box Image" class="h-8 w-8 rounded-md" />
+
+          Try on in AR Online</RouterLink
+        >
         <RouterLink to="#" class="mb-5 w-full rounded-[5px] bg-customPurple py-4 text-center text-white">Design Your Watch</RouterLink>
       </div>
     </div>

@@ -63,7 +63,7 @@ const handleMouseLeave = () => {
           <i class="pi pi-user text-2xl text-customTextGray"></i>
           <div v-if="isHovered" class="absolute -left-[106px] top-0 w-56 bg-transparent">
             <div class="mt-12 flex flex-col justify-center gap-4 rounded-md bg-white p-4 shadow">
-              <div class="absolute left-[50%] top-10 z-10 h-4 w-4 rotate-45 bg-white"></div>
+              <div class="h-0.54 absolute left-[50%] top-10 z-10 w-4 rotate-45 bg-white"></div>
               <NuxtLink to="/loginSignup" class="text rounded-md bg-black px-[44px] py-[20px] text-center text-sm text-white">Log in</NuxtLink>
               <NuxtLink to="/loginSignup" class="text rounded-md border border-black bg-white px-[44px] py-[20px] text-center text-sm text-black">Sign up</NuxtLink>
             </div>
