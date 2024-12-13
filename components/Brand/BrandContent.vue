@@ -1,7 +1,7 @@
 <script setup lang="js"></script>
 
 <template>
-  <div class="md:max-w6xl mx-auto w-full max-w-72">
+  <div class="mx-auto w-full max-w-72 md:max-w-6xl">
     <div class="relative z-20 bg-white px-5 pb-6 pt-5 md:p-40 md:pt-24">
       <h1 class="mb-[70px] text-sm text-[#939393]">Custom Watches & Creative Accessories</h1>
       <p class="mb-9 text-sm leading-loose text-[#939393]">Volumenzeit isn’t just about telling the time. It’s about expressing yourself. Listening to your imagination. Choosing to shun the norm and take your own path. We believe that following these ideals can start at the wrist.</p>
