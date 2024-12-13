@@ -11,11 +11,11 @@
         <div class="flex flex-row items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="50" class="design__block design__block1 truncate-3-lines box-border flex w-20 flex-col items-center gap-[1.875rem] text-xs">
             <span class="design__number relative order-2 box-border flex h-14 w-[60.4px] items-center rounded-full border border-white font-spaceAge text-3xl font-[400] before:absolute before:left-1/2 before:top-1/2 before:h-[86.11px] before:w-[86.11px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-white/20 before:content-[''] lg:order-1">
-              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-50px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:right-[15px] after:top-[66px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:right-[-58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
+              <span class="relative mx-auto before:absolute before:left-[5px] before:top-[-40px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:right-[0px] after:top-[76px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:right-[-58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
                 <span>1</span>
               </span>
             </span>
-            <p class="design__text order-1 lg:order-2">Case Color</p>
+            <p class="design__text order-1 mb-5 lg:order-2">Case Color</p>
           </div>
           <span data-aos-anchor=".design__block2" data-aos="fade-right" data-aos-delay="100" class="design__line w-calc(100% - 19rem) h-14.5 -mt-11"> </span>
         </div>
@@ -25,11 +25,11 @@
         <div class="flex flex-row items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="50" class="design__block design__block1 truncate-3-lines box-border flex w-20 flex-col items-center gap-[1.875rem] text-xs">
             <span class="design__number relative order-2 box-border flex h-14 w-[60.4px] items-center rounded-full border border-white font-spaceAge text-3xl font-[400] before:absolute before:left-1/2 before:top-1/2 before:h-[86.11px] before:w-[86.11px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-white/20 before:content-[''] lg:order-1">
-              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-50px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:right-[15px] after:top-[66px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:right-[-58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
+              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-40px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:right-[10px] after:top-[76px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:right-[-58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
                 <span>2</span>
               </span>
             </span>
-            <p class="design__text order-1 my-6 lg:order-2 lg:my-0">Dial Design</p>
+            <p class="design__text order-1 mb-7 mt-4 lg:order-2 lg:my-0">Dial Design</p>
           </div>
           <span data-aos-anchor=".design__block2" data-aos="fade-right" data-aos-delay="100" class="design__line w-calc(100% - 19rem) h-14.5 -mt-11"></span>
         </div>
@@ -39,11 +39,11 @@
         <div class="flex flex-row items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="50" class="design__block design__block1 truncate-3-lines box-border flex w-20 flex-col items-center gap-[1.875rem] text-xs">
             <span class="design__number relative order-2 box-border flex h-[60.4px] w-[60.4px] items-center rounded-full border border-white font-spaceAge text-3xl font-[400] before:absolute before:left-1/2 before:top-1/2 before:h-[86.11px] before:w-[86.11px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-white/20 before:content-[''] lg:order-1">
-              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-50px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:left-[15px] after:top-[66px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:left-[58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
+              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-40px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] after:absolute after:left-[15px] after:top-[76px] after:h-[30px] after:w-[2px] after:-translate-y-1/2 after:bg-white after:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent lg:after:left-[58px] lg:after:top-1/2 lg:after:h-0.5 lg:after:w-[30px] lg:after:bg-transparent">
                 <span>3</span>
               </span>
             </span>
-            <p class="design__text order-1 my-6 lg:order-2 lg:my-0">Dial Color</p>
+            <p class="design__text order-1 mb-5 mt-4 lg:order-2 lg:my-0">Dial Color</p>
           </div>
           <span data-aos-anchor=".design__block2" data-aos="fade-right" data-aos-delay="100" class="design__line w-calc(100% - 19rem) h-14.5 -mt-11"></span>
         </div>
@@ -53,11 +53,11 @@
         <div class="flex flex-row items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="50" class="design__block design__block1 truncate-3-lines box-border flex w-20 flex-col items-center gap-[1.875rem] text-xs">
             <span class="design__number relative order-2 box-border flex h-[60.4px] w-[60.4px] items-center rounded-full border border-white font-spaceAge text-3xl font-[400] before:absolute before:left-1/2 before:top-1/2 before:h-[86.11px] before:w-[86.11px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-white/20 before:content-[''] lg:order-1">
-              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-50px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent">
+              <span class="relative mx-auto before:absolute before:left-[15px] before:top-[-40px] before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-white before:content-[''] lg:before:left-[-58px] lg:before:top-1/2 lg:before:h-0.5 lg:before:w-[30px] lg:before:bg-transparent">
                 <span>4</span>
               </span>
             </span>
-            <p class="design__text order-1 my-6 lg:order-1 lg:my-0">Strap Design</p>
+            <p class="design__text order-1 mb-6 mt-4 lg:order-1 lg:my-0">Strap Design</p>
           </div>
         </div>
       </div>

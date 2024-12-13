@@ -36,7 +36,7 @@
         </div>
 
         <div data-da=".features__wrapper,1160" class="features__center -z-1 relative top-16 w-[100vw] flex-1">
-          <img data-aos="zoom-in" data-aos-anchor=".features__container" src="@/assets/images/feature/watch.png" alt="" class="features__watch relative bottom-[55px] left-[calc(0%+0px)] w-64 object-contain align-top lg:-top-[54px] lg:left-[140px] lg:w-64 xl:bottom-[50px] xl:left-[calc(27%+0px)] xl:w-64" />
+          <img data-aos="zoom-in" data-aos-anchor=".features__container" src="@/assets/images/feature/watch.png" alt="" class="features__watch relative bottom-[55px] left-[calc(0%+0px)] w-64 object-contain align-top lg:-top-[64px] lg:left-[140px] lg:w-64 xl:bottom-[50px] xl:left-[calc(26%+0px)] xl:w-64" />
 
           <img data-aos="zoom-in" data-aos-anchor=".features__container" data-aos-delay="100" src="@/assets/images/feature/circles.svg" alt="" class="features__circles scale-800 absolute -top-[calc(50%+0px)] left-0 w-fit transform object-contain align-top" />
         </div>
