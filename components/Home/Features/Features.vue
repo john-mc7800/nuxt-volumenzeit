@@ -4,7 +4,7 @@
   <div data-watch="navigator" data-watch-margin="-32%" class="z-2 top-20 bg-white pb-64 md:pb-48 md:pt-[4.6875rem]">
     <div class="features__container mx-auto box-content max-w-[320px] px-[.9375rem] md:max-w-[69.375rem]">
       <h3 data-aos="fade-up" class="leading- mb-8 text-center font-spaceAge text-[1.75rem] font-normal text-black opacity-100 md:text-[2.625rem]">Features</h3>
-      <div class="features__wrapper h-0.54"></div>
+      <div class="features__wrapper h-0"></div>
       <div data-da=".features__wrapper,1160 " class="h-scree verflow-y-scroll relative hidden flex-wrap items-center justify-around gap-[24px] lg:flex">
         <div class="features__left flex flex-col gap-[7.5rem] text-right">
           <div class="features__block features__left-top relative">
@@ -70,7 +70,7 @@
           <img data-aos="zoom-in" data-aos-anchor=".features__container" data-aos-delay="100" src="@/assets/images/feature/circles.svg" alt="" class="features__circles absolute left-0 top-0 w-96 scale-125 object-contain align-top md:left-[calc(28%+0px)]" />
         </div>
 
-        <div class="h-0.548 relative top-24 flex justify-center md:mt-0">
+        <div class="relative top-24 flex h-48 justify-center md:mt-0">
           <div class="relative top-10 flex w-[16.875rem] flex-col gap-[1.25rem]">
             <h5 data-aos-anchor=".features__left" data-aos="zoom-in-left" data-aos-delay="250" id="features_mobile" class="text-center text-[1.125rem] font-[500] text-black">Individual Style</h5>
             <ul class="box-border block list-none text-center text-[10px] leading-6 text-[#939393]">
@@ -81,10 +81,10 @@
             </ul>
           </div>
 
-          <span class="before:h-0.54 absolute h-3.5 w-3.5 rounded-full bg-[#6B66FF] before:absolute before:left-1/2 before:top-1/2 before:w-6 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-[#6B66FF]/20 before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:h-[34px] after:w-[34px] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:border after:border-[#6B66FF]/20 after:content-['']"></span>
+          <span class="absolute h-3.5 w-3.5 rounded-full bg-[#6B66FF] before:absolute before:left-1/2 before:top-1/2 before:h-6 before:w-6 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-[#6B66FF]/20 before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:h-[34px] after:w-[34px] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:border after:border-[#6B66FF]/20 after:content-['']"></span>
         </div>
 
-        <div class="h-0.548 relative top-24 flex justify-center md:mt-0">
+        <div class="relative top-24 flex h-48 justify-center md:mt-0">
           <div class="relative top-10 flex w-[16.875rem] flex-col gap-[1.25rem]">
             <h5 data-aos-anchor=".features__left" data-aos="zoom-in-left" data-aos-delay="250" id="features_mobile" class="text-center text-[1.125rem] font-[500] text-black">High Quality Components</h5>
             <ul class="box-border block list-none text-center text-[10px] leading-6 text-[#939393]">
@@ -95,10 +95,10 @@
             </ul>
           </div>
 
-          <span class="before:h-0.54 absolute h-3.5 w-3.5 rounded-full bg-[#6B66FF] before:absolute before:left-1/2 before:top-1/2 before:w-6 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-[#6B66FF]/20 before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:h-[34px] after:w-[34px] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:border after:border-[#6B66FF]/20 after:content-['']"></span>
+          <span class="absolute h-3.5 w-3.5 rounded-full bg-[#6B66FF] before:absolute before:left-1/2 before:top-1/2 before:h-6 before:w-6 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-[#6B66FF]/20 before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:h-[34px] after:w-[34px] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:border after:border-[#6B66FF]/20 after:content-['']"></span>
         </div>
 
-        <div class="h-0.548 relative top-28 flex justify-center">
+        <div class="relative top-28 flex h-48 justify-center">
           <div class="relative top-10 flex w-[16.875rem] flex-col gap-[1.25rem]">
             <h5 data-aos-anchor=".features__left" data-aos="zoom-in-left" data-aos-delay="250" id="features_mobile" class="text-center text-[1.125rem] font-[500] text-black">Features</h5>
             <ul class="box-border block list-none text-center text-[10px] leading-6 text-[#939393]">
@@ -113,7 +113,7 @@
             </ul>
           </div>
 
-          <span class="before:h-0.54 absolute h-3.5 w-3.5 rounded-full bg-[#6B66FF] before:absolute before:left-1/2 before:top-1/2 before:w-6 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-[#6B66FF]/20 before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:h-[34px] after:w-[34px] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:border after:border-[#6B66FF]/20 after:content-['']"></span>
+          <span class="absolute h-3.5 w-3.5 rounded-full bg-[#6B66FF] before:absolute before:left-1/2 before:top-1/2 before:h-6 before:w-6 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:border before:border-[#6B66FF]/20 before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:h-[34px] after:w-[34px] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:border after:border-[#6B66FF]/20 after:content-['']"></span>
         </div>
       </div>
     </div>

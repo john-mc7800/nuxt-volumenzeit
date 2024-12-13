@@ -31,13 +31,13 @@ const responsiveOptions = ref([
           <Carousel :showIndicators="false" :value="products" :numVisible="3" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true" prevIcon="custom-prev" nextIcon="custom-next">
             <template #item="slotProps">
               <div class="watches__slide swiper-slide h-full">
-                <NuxtLink to="/product" class="group flex h-full flex-col items-center gap-8">
-                  <div class="watches__img-block h-[16rem] rounded-xl bg-[radial-gradient(50.17%_50.17%_at_50.03%_49.91%,_#f9fafe_36.92%,_#f1f4fb_100%)] px-6 lg:h-[24.5425rem]">
+                <a href="#" class="group flex h-full flex-col items-center gap-8">
+                  <div class="watches__img-block h-[16rem] rounded-xl bg-[radial-gradient(50.17%_50.17%_at_50.03%_49.91%,_#f9fafe_36.92%,_#f1f4fb_100%)] px-[25px] lg:h-[24.5425rem]">
                     <img :src="slotProps.data.imageUrl" :alt="slotProps.data.image" class="m-auto h-[95%] transition-all duration-200 ease-in-out group-hover:scale-95" />
                   </div>
                   <p class="mt-8 text-center text-[1rem] leading-3 text-[#939393] md:mt-10 lg:mt-12">{{ slotProps.data.name }}</p>
                   <h6 class="text-center text-[1.625rem] leading-6 text-black lg:mb-8">${{ slotProps.data.price }}</h6>
-                </NuxtLink>
+                </a>
               </div>
             </template>
 
@@ -49,14 +49,14 @@ const responsiveOptions = ref([
             </template>
           </Carousel>
         </div>
-        <div data-aos="fade-up" class="z-0 mt-[3.75rem] pb-[1.875rem] pt-1 text-center lg:ml-60 lg:mr-16 lg:text-end">
+        <div data-aos="fade-up" class="z-0 mt-[3.75rem] pb-[1.875rem] pt-[5px] text-center lg:ml-60 lg:mr-16 lg:text-end">
           <DesignButton label="Design Your Watch" />
         </div>
       </div>
     </div>
   </div>
 </template>
-<style>
+<style lang="scss">
 .p-carousel-next-button {
   color: black !important;
   position: absolute !important;

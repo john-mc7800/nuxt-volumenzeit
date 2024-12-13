@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="about overflow-hidde box-border bg-[#fff] pb-[2.5rem] pt-[3.125rem]">
-    <div class="about__container lg:rid-cols-[40%_1fr] relative mx-auto grid w-[85%] grid-cols-1 items-center justify-between gap-7 md:grid-cols-2 md:px-[.9375rem]">
+    <div class="about__container lg:rid-cols-[40%_1fr] relative mx-auto grid w-[85%] grid-cols-1 items-center justify-between gap-7 md:grid-cols-2 md:px-4">
       <div class="about__left box-border md:ml-10 lg:w-[24.75rem]">
         <h3 class="about__text-nav mb-[2.8125rem] text-center font-spaceAge text-[1.75rem] font-[400] leading-6 text-black sm:text-[2rem] lg:text-start lg:text-[2.625rem]">About us</h3>
         <p class="about__text-nav box-border break-words text-center leading-7 lg:text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan volutpat tristique metus, nibh massa quam iaculis lectus. A dui nam phasellus porttitor nisi. Eget a quam est, eget dictum nisi. Sit donec aenean vivamus sagittis, blandit. Eleifend bibendum aliquet orci risus, velit. Lectus tellus amet</p>
