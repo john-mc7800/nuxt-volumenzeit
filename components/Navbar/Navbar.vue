@@ -44,7 +44,7 @@ const handleMouseLeave = () => {
     <div class="container z-30 m-auto flex max-w-[70rem] items-center justify-between py-2 lg:gap-7">
       <span data-aos="fade-right opacity-100">
         <NuxtLink to="/" class="w m-0 text-customGray lg:p-0">
-          <img data-aos="fade-right" src="@/assets/images/logo.svg" alt="Logo" class="h-[30px] w-[260px] lg:h-[34px] lg:w-[270px]" />
+          <img data-aos="fade-right" src="@/assets/images/logo.svg" alt="Logo" class="h-8 w-64 lg:h-9 lg:w-[270px]" />
         </NuxtLink>
       </span>
 
@@ -61,11 +61,11 @@ const handleMouseLeave = () => {
       <div class="hidden items-center gap-8 md:flex">
         <div @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave" class="relative">
           <i class="pi pi-user text-2xl text-customTextGray"></i>
-          <div v-if="isHovered" class="absolute -left-[106px] top-0 w-56 bg-transparent">
+          <div v-if="isHovered" class="absolute -left-28 top-0 w-56 bg-transparent">
             <div class="mt-12 flex flex-col justify-center gap-4 rounded-md bg-white p-4 shadow">
               <div class="h-0.54 absolute left-[50%] top-10 z-10 w-4 rotate-45 bg-white"></div>
-              <NuxtLink to="/loginSignup" class="text rounded-md bg-black px-[44px] py-[20px] text-center text-sm text-white">Log in</NuxtLink>
-              <NuxtLink to="/loginSignup" class="text rounded-md border border-black bg-white px-[44px] py-[20px] text-center text-sm text-black">Sign up</NuxtLink>
+              <NuxtLink to="/loginSignup" class="text rounded-md bg-black px-11 py-5 text-center text-sm text-white">Log in</NuxtLink>
+              <NuxtLink to="/loginSignup" class="text rounded-md border border-black bg-white px-11 py-5 text-center text-sm text-black">Sign up</NuxtLink>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ const handleMouseLeave = () => {
             <i class="pi pi-shopping-bag text-2xl text-customTextGray"></i>
           </NuxtLink>
 
-          <Drawer v-model:visible="visibleRight" position="right" class="z-50 bg-[#f9fafe] p-0 px-0 font-spaceAge text-[20px] !font-thin leading-5 md:w-[27%]">
+          <Drawer v-model:visible="visibleRight" position="right" class="text-5 z-50 bg-[#f9fafe] p-0 px-0 font-spaceAge !font-thin leading-5 md:w-[27%]">
             <template #header>
               <div class="drawer-header-custom bg-[#f9fafe]">
                 <span class="header-title">your cart</span>
@@ -114,7 +114,7 @@ const handleMouseLeave = () => {
             <i class="pi pi-shopping-bag text-xl text-customTextGray"></i>
           </NuxtLink>
 
-          <Drawer autoZIndex="true" v-model:visible="visibleRight" position="right" class="z-50 w-[100%] bg-[#f9fafe] p-0 px-0 font-spaceAge text-[20px] !font-thin leading-5">
+          <Drawer autoZIndex="true" v-model:visible="visibleRight" position="right" class="text-5 z-50 w-[100%] bg-[#f9fafe] p-0 px-0 font-spaceAge !font-thin leading-5">
             <template #header>
               <div class="drawer-header-custom bg-[#f9fafe]">
                 <span class="header-title">your cart</span>

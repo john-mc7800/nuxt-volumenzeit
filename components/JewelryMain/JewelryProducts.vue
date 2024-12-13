@@ -43,12 +43,12 @@ const goToPage = (page) => {
     <div class="mb-[70px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       <div v-for="product in paginatedProducts" :key="product.name" class="h-full w-full">
         <div class="h-92 m-0 text-center text-black" data-aos="fade-up">
-          <a href="#" class="group relative mb-[15px] flex w-full flex-col items-center gap-y-1 object-contain text-center" @mouseenter="product.isHovered = true" @mouseleave="product.isHovered = false">
+          <a href="#" class="group relative mb-4 flex w-full flex-col items-center gap-y-1 object-contain text-center" @mouseenter="product.isHovered = true" @mouseleave="product.isHovered = false">
             <div class="h-full w-full rounded-xl">
-              <img :src="product.isHovered ? product.hoverImageUrl : product.imageUrl" :alt="product.name" class="m-auto h-[250px] w-full object-contain transition-all duration-200 ease-in-out group-hover:scale-95" />
+              <img :src="product.isHovered ? product.hoverImageUrl : product.imageUrl" :alt="product.name" class="m-auto h-64 w-full object-contain transition-all duration-200 ease-in-out group-hover:scale-95" />
             </div>
             <h3 class="mb-1 text-center text-sm font-[500] leading-3 text-black">{{ product.name }}</h3>
-            <p class="mB-1 leading-extra-loose text-center text-[10px] leading-3 text-[#939393]">{{ product.color }}</p>
+            <p class="mB-1 leading-extra-loose text-center text-xs leading-3 text-[#939393]">{{ product.color }}</p>
             <h6 class="text-center text-lg leading-none text-black">{{ product.price }}</h6>
           </a>
         </div>
@@ -71,7 +71,7 @@ const goToPage = (page) => {
     </div>
 
     <div class="mt-20 text-center lg:mt-0 lg:text-end">
-      <NuxtLink to="#" class="rounded-md bg-customPurple px-[44px] py-[20px] text-white lg:pl-[109px] lg:pr-[109px]"> Design Your Watch </NuxtLink>
+      <NuxtLink to="#" class="rounded-md bg-customPurple px-11 py-5 text-white lg:pl-28 lg:pr-28"> Design Your Watch </NuxtLink>
     </div>
   </div>
 </template>

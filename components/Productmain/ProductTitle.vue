@@ -10,9 +10,9 @@ const items = ref([
 
 <template>
   <!-- title section  -->
-  <div class="w-full bg-customPurple md:mt-[95px] lg:mt-0">
-    <div class="mx-auto max-w-[1140px] px-7 py-[10px]">
-      <h1 data-aos="fade-right" class="font-spaceAge text-[28px] text-white md:text-[42px]">Product</h1>
+  <div class="w-full bg-customPurple md:mt-24 lg:mt-0">
+    <div class="mx-auto max-w-6xl px-7 py-3">
+      <h1 data-aos="fade-right" class="font-spaceAge text-3xl text-white md:text-[42px]">Product</h1>
       <Breadcrumb :model="items" class="bg-transparent p-0 pb-4" data-aos="fade-right">
         <template #item="{ item, props }">
           <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>

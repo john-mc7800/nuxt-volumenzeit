@@ -6,9 +6,9 @@
 
       <!-- Search form appears when isHovered is true -->
       <div v-if="isHovered">
-        <form class="absolute right-0 top-[0px] mt-8 flex w-[300px] bg-white px-2 py-2 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-300 ease-in-out md:right-8 md:w-[330px]">
-          <input type="search" placeholder="Type Here" class="me-2 w-full border border-gray-300 bg-customGray p-2 text-lg outline-none placeholder:ps-4 placeholder:text-[16px]" />
-          <button class="bg-customPurple px-6 py-[14px] text-[15px] text-white">search</button>
+        <form class="absolute right-0 top-0 mt-8 flex w-72 bg-white px-2 py-2 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-300 ease-in-out md:right-8 md:w-80">
+          <input type="search" placeholder="Type Here" class="me-2 w-full border border-gray-300 bg-customGray p-2 text-lg outline-none placeholder:ps-4 placeholder:text-sm" />
+          <button class="bg-customPurple px-6 py-4 text-sm text-white">search</button>
         </form>
       </div>
     </div>
