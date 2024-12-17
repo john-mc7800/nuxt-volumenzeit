@@ -64,8 +64,8 @@ const handleMouseLeave = () => {
           <div v-if="isHovered" class="absolute -left-28 top-0 w-56 bg-transparent">
             <div class="mt-12 flex flex-col justify-center gap-4 rounded-md bg-white p-4 shadow">
               <div class="h-0.54 absolute left-[50%] top-10 z-10 w-4 rotate-45 bg-white"></div>
-              <NuxtLink to="/loginSignup" class="text rounded-md bg-black px-11 py-5 text-center text-sm text-white">Log in</NuxtLink>
-              <NuxtLink to="/loginSignup" class="text rounded-md border border-black bg-white px-11 py-5 text-center text-sm text-black">Sign up</NuxtLink>
+              <NuxtLink to="/auth/login" class="text rounded-md bg-black px-11 py-5 text-center text-sm text-white">Log in</NuxtLink>
+              <NuxtLink to="/auth/sign-up" class="text rounded-md border border-black bg-white px-11 py-5 text-center text-sm text-black">Sign up</NuxtLink>
             </div>
           </div>
         </div>

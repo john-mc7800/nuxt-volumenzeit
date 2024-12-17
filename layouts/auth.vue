@@ -21,25 +21,17 @@ console.log(route.name);
       <div class="relative z-20 rounded-[10px] bg-white p-[0px] md:p-[58px]">
         <div class="card border-#EAECF5 flex flex-col items-center space-y-4 rounded-[10px] border py-8">
           <div class="grid w-full grid-cols-1 gap-0 pb-4 md:max-w-[78%] md:grid-cols-2">
-            <div class="w-fill mb-8 text-center">
-              <!-- <button @click="navigateToPath('/login')" :class="['border-b border-gray-300 px-24 pb-4 text-xl font-[600] text-black lg:px-[140px]', route.path === '/login' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">Login</button> -->
-            </div>
-            <div class="text-center">
-              <!-- <button :class="['box-content border-b border-gray-300 px-10 pb-4 text-xl font-[600] text-black lg:px-[84px]', route.path === '/signup' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">Create Account</button> -->
-              <!-- <button @click="navigateToPath('/signup')" :class="['border-b border-gray-300 px-16 pb-4 text-xl font-[600] text-black lg:px-[140px]', route.path === '/signup' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">Create Account</button> -->
-            </div>
+            <div class="w-fill mb-8 text-center"></div>
+            <div class="text-center"></div>
           </div>
           <div>
-            <NuxtLink to="/auth/login">login</NuxtLink>
-            <NuxtLink to="/auth/sign-up">sign up</NuxtLink>
+            <NuxtLink to="/auth/login" :class="['border-b border-gray-300 px-24 pb-4 text-xl font-[600] text-black lg:px-[140px]', route.path === '/auth/login' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">login</NuxtLink>
+            <NuxtLink to="/auth/sign-up" :class="['box-content border-b border-gray-300 px-10 pb-4 text-xl font-[600] text-black lg:px-[84px]', route.path === '/auth/sign-up' ? 'overflow-hidden border-b-[5px] border-b-customPurple' : '']">sign up</NuxtLink>
           </div>
 
           <div class="w-full">
-            <!-- <div>{{ route.path }}</div> -->
             <div class="">
               <slot />
-              <!-- <SignUp v-if="route.path === '/signup'" />
-              <Login v-if="route.path === '/login'" /> -->
             </div>
           </div>
         </div>
